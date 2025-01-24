@@ -1,29 +1,67 @@
+/* Фон всей страницы */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 50px;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* Контейнер с контентом */
 .container {
     background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: inline-block;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Заголовок */
+h1 {
+    color: #333;
+}
+
+/* Кнопки */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 12px;
     font-size: 16px;
-    background-color: #007bff;
-    color: white;
+    font-weight: bold;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
+    border-radius: 8px;
+    width: 100%;
+    transition: 0.3s;
 }
 
-button:hover {
-    background-color: #0056b3;
+/* Кнопка "Отправить данные" */
+#sendData {
+    background-color: #28a745;
+    color: white;
+}
+
+#sendData:hover {
+    background-color: #218838;
+}
+
+/* Кнопка "Закрыть" */
+#closeApp {
+    background-color: #dc3545;
+    color: white;
+}
+
+#closeApp:hover {
+    background-color: #c82333;
 }
