@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
       user_id: user ? user.id : "неизвестно",
     };
 
+    const botAnswer = document.getElementById("botAnswer");
     botAnswer.textContent = "Отправляем данные боту..."; // Выводим сообщение о отправке данных
 
     tg.sendData(JSON.stringify(data)); // Отправляем данные боту
