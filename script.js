@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Получаем информацию о пользователе
   const user = tg.initDataUnsafe?.user;
+
+  // Если пользователь авторизован, то выводим его имя и ID
   if (user) {
     document.getElementById("username").textContent = user.first_name;
     document.getElementById("userid").textContent = `ID: ${user.id}`;
@@ -12,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Кнопка "Отправить данные"
   document.getElementById("sendData").addEventListener("click", () => {
     const data = {
-      message: "Привет от WebApp!",
+      message: `Привет от WebApp!`,
       user_id: user ? user.id : "неизвестно",
     };
 
