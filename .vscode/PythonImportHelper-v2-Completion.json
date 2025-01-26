@@ -1,0 +1,403 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "ZipFile",
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "isExtraImport": true,
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "BadZipFile",
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "isExtraImport": true,
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Dispatcher",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "KeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "KeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "kb_report",
+        "importPath": "keyboards.default",
+        "description": "keyboards.default",
+        "isExtraImport": true,
+        "detail": "keyboards.default",
+        "documentation": {}
+    },
+    {
+        "label": "ReplyKeyboardBuilder",
+        "importPath": "aiogram.utils.keyboard",
+        "description": "aiogram.utils.keyboard",
+        "isExtraImport": true,
+        "detail": "aiogram.utils.keyboard",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardBuilder",
+        "importPath": "aiogram.utils.keyboard",
+        "description": "aiogram.utils.keyboard",
+        "isExtraImport": true,
+        "detail": "aiogram.utils.keyboard",
+        "documentation": {}
+    },
+    {
+        "label": "WebAppInfo",
+        "importPath": "aiogram.types.web_app_info",
+        "description": "aiogram.types.web_app_info",
+        "isExtraImport": true,
+        "detail": "aiogram.types.web_app_info",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryStorage",
+        "importPath": "aiogram.fsm.storage.memory",
+        "description": "aiogram.fsm.storage.memory",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.storage.memory",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "importPath": "handlers",
+        "description": "handlers",
+        "isExtraImport": true,
+        "detail": "handlers",
+        "documentation": {}
+    },
+    {
+        "label": "extract_file",
+        "kind": 2,
+        "importPath": ".venv.Scripts.vba_extract",
+        "description": ".venv.Scripts.vba_extract",
+        "peekOfCode": "def extract_file(xlsm_zip, filename):\n    # Extract a single file from an Excel xlsm macro file.\n    data = xlsm_zip.read(\"xl/\" + filename)\n    # Write the data to a local file.\n    file = open(filename, \"wb\")\n    file.write(data)\n    file.close()\n# The VBA project file and project signature file we want to extract.\nvba_filename = \"vbaProject.bin\"\nvba_signature_filename = \"vbaProjectSignature.bin\"",
+        "detail": ".venv.Scripts.vba_extract",
+        "documentation": {}
+    },
+    {
+        "label": "vba_filename",
+        "kind": 5,
+        "importPath": ".venv.Scripts.vba_extract",
+        "description": ".venv.Scripts.vba_extract",
+        "peekOfCode": "vba_filename = \"vbaProject.bin\"\nvba_signature_filename = \"vbaProjectSignature.bin\"\n# Get the xlsm file name from the commandline.\nif len(sys.argv) > 1:\n    xlsm_file = sys.argv[1]\nelse:\n    print(\n        \"\\nUtility to extract a vbaProject.bin binary from an Excel 2007+ \"\n        \"xlsm macro file for insertion into an XlsxWriter file.\\n\"\n        \"If the macros are digitally signed, extracts also a vbaProjectSignature.bin \"",
+        "detail": ".venv.Scripts.vba_extract",
+        "documentation": {}
+    },
+    {
+        "label": "vba_signature_filename",
+        "kind": 5,
+        "importPath": ".venv.Scripts.vba_extract",
+        "description": ".venv.Scripts.vba_extract",
+        "peekOfCode": "vba_signature_filename = \"vbaProjectSignature.bin\"\n# Get the xlsm file name from the commandline.\nif len(sys.argv) > 1:\n    xlsm_file = sys.argv[1]\nelse:\n    print(\n        \"\\nUtility to extract a vbaProject.bin binary from an Excel 2007+ \"\n        \"xlsm macro file for insertion into an XlsxWriter file.\\n\"\n        \"If the macros are digitally signed, extracts also a vbaProjectSignature.bin \"\n        \"file.\\n\"",
+        "detail": ".venv.Scripts.vba_extract",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "bot.handlers.help",
+        "description": "bot.handlers.help",
+        "peekOfCode": "router = Router()\n@router.message(Command(commands=[\"help\"]))\nasync def cmd_help(message: Message):\n    await message.answer(\"This is the help message. Here you can find information on how to use the bot.\")",
+        "detail": "bot.handlers.help",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "bot.handlers.start",
+        "description": "bot.handlers.start",
+        "peekOfCode": "router = Router()\n# Инициализация подключения к БД\ndb_pool = None\n@router.message(Command(commands=[\"start\"]))\nasync def cmd_start(message: Message):\n    await message.answer(\"Для получения отчета введите /report\")",
+        "detail": "bot.handlers.start",
+        "documentation": {}
+    },
+    {
+        "label": "db_pool",
+        "kind": 5,
+        "importPath": "bot.handlers.start",
+        "description": "bot.handlers.start",
+        "peekOfCode": "db_pool = None\n@router.message(Command(commands=[\"start\"]))\nasync def cmd_start(message: Message):\n    await message.answer(\"Для получения отчета введите /report\")",
+        "detail": "bot.handlers.start",
+        "documentation": {}
+    },
+    {
+        "label": "kb_report",
+        "kind": 2,
+        "importPath": "bot.keyboards.default",
+        "description": "bot.keyboards.default",
+        "peekOfCode": "def kb_report():\n    ikb = InlineKeyboardMarkup(inline_keyboard=[\n        [\n            InlineKeyboardButton(text='/report', callback_data='kb_report')\n        ],\n    ])\n    return ikb\n# def kb_web_app():\n#     builder = ReplyKeyboardBuilder()\n#     builder.add(KeyboardButton(text='Секреты хамелеона', web_app=WebAppInfo(url='https://qna.habr.com/q/1281828')))",
+        "detail": "bot.keyboards.default",
+        "documentation": {}
+    },
+    {
+        "label": "kb_builder",
+        "kind": 2,
+        "importPath": "bot.keyboards.inline",
+        "description": "bot.keyboards.inline",
+        "peekOfCode": "def kb_builder():\n    builder = InlineKeyboardBuilder()\n    for i in range(1, 17):\n        builder.row(InlineKeyboardButton(text=str(i), callback_data=str(i)))\n        builder.adjust(4, 3)\n    return builder\ndef kb_report():\n    ikb = InlineKeyboardMarkup(inline_keyboard=[\n        [\n            InlineKeyboardButton(text='/report', callback_data='kb_report')",
+        "detail": "bot.keyboards.inline",
+        "documentation": {}
+    },
+    {
+        "label": "kb_report",
+        "kind": 2,
+        "importPath": "bot.keyboards.inline",
+        "description": "bot.keyboards.inline",
+        "peekOfCode": "def kb_report():\n    ikb = InlineKeyboardMarkup(inline_keyboard=[\n        [\n            InlineKeyboardButton(text='/report', callback_data='kb_report')\n        ],\n    ])\n    return ikb\ndef kb_change_market_place():\n    builder = InlineKeyboardBuilder()\n    builder.add(InlineKeyboardButton(text='Ozon', callback_data='mp_ozon'))",
+        "detail": "bot.keyboards.inline",
+        "documentation": {}
+    },
+    {
+        "label": "kb_change_market_place",
+        "kind": 2,
+        "importPath": "bot.keyboards.inline",
+        "description": "bot.keyboards.inline",
+        "peekOfCode": "def kb_change_market_place():\n    builder = InlineKeyboardBuilder()\n    builder.add(InlineKeyboardButton(text='Ozon', callback_data='mp_ozon'))\n    builder.add(InlineKeyboardButton(text='Wildberries', callback_data='mp_wildberries'))\n    builder.adjust(2)\n    return builder\ndef kb_change_brand(mp):\n    builder = InlineKeyboardBuilder()\n    builder.add(InlineKeyboardButton(text='Секреты хамелеона', callback_data=f'{mp}_secret_hameleon'))\n    builder.add(InlineKeyboardButton(text='CSC gaming', callback_data=f'{mp}_csc_gaming'))",
+        "detail": "bot.keyboards.inline",
+        "documentation": {}
+    },
+    {
+        "label": "kb_change_brand",
+        "kind": 2,
+        "importPath": "bot.keyboards.inline",
+        "description": "bot.keyboards.inline",
+        "peekOfCode": "def kb_change_brand(mp):\n    builder = InlineKeyboardBuilder()\n    builder.add(InlineKeyboardButton(text='Секреты хамелеона', callback_data=f'{mp}_secret_hameleon'))\n    builder.add(InlineKeyboardButton(text='CSC gaming', callback_data=f'{mp}_csc_gaming'))\n    builder.adjust(2)\n    return builder\ndef brand_inline():\n    builder = InlineKeyboardBuilder()\n    builder.add(InlineKeyboardButton(text='Секреты Хамелеона', callback_data='brand_sec_of_chameleon'))\n    builder.add(InlineKeyboardButton(text='CSC GAMING', callback_data='brand_cscgaming'))",
+        "detail": "bot.keyboards.inline",
+        "documentation": {}
+    },
+    {
+        "label": "brand_inline",
+        "kind": 2,
+        "importPath": "bot.keyboards.inline",
+        "description": "bot.keyboards.inline",
+        "peekOfCode": "def brand_inline():\n    builder = InlineKeyboardBuilder()\n    builder.add(InlineKeyboardButton(text='Секреты Хамелеона', callback_data='brand_sec_of_chameleon'))\n    builder.add(InlineKeyboardButton(text='CSC GAMING', callback_data='brand_cscgaming'))\n    builder.add(InlineKeyboardButton(text='Назад 🔙', callback_data='back_brand'))\n    builder.adjust(2)\n    return builder\ndef years_inline():\n    builder = InlineKeyboardBuilder()\n    for date in range(2024, 2029):",
+        "detail": "bot.keyboards.inline",
+        "documentation": {}
+    },
+    {
+        "label": "years_inline",
+        "kind": 2,
+        "importPath": "bot.keyboards.inline",
+        "description": "bot.keyboards.inline",
+        "peekOfCode": "def years_inline():\n    builder = InlineKeyboardBuilder()\n    for date in range(2024, 2029):\n        builder.add(InlineKeyboardButton(text=str(date), callback_data=f'years_{date}'))\n    builder.add(InlineKeyboardButton(text='Назад 🔙', callback_data='back_years'))\n    builder.adjust(4)\n    return builder\nall_month = {\n    'Январь': '01',\n    'Февраль': '02',",
+        "detail": "bot.keyboards.inline",
+        "documentation": {}
+    },
+    {
+        "label": "month_inline",
+        "kind": 2,
+        "importPath": "bot.keyboards.inline",
+        "description": "bot.keyboards.inline",
+        "peekOfCode": "def month_inline():\n    builder = InlineKeyboardBuilder()\n    for month, dt in all_month.items():\n        builder.add(InlineKeyboardButton(text=month, callback_data=f'month_{dt}'))\n    builder.add(InlineKeyboardButton(text='Назад 🔙', callback_data='back_years'))\n    builder.adjust(4)\n    return builder",
+        "detail": "bot.keyboards.inline",
+        "documentation": {}
+    },
+    {
+        "label": "all_month",
+        "kind": 5,
+        "importPath": "bot.keyboards.inline",
+        "description": "bot.keyboards.inline",
+        "peekOfCode": "all_month = {\n    'Январь': '01',\n    'Февраль': '02',\n    'Март': '03',\n    'Апрель': '04',\n    'Май': '05',\n    'Июнь': '06',\n    'Июль': '07',\n    'Август': '08',\n    'Сентябрь': '09',",
+        "detail": "bot.keyboards.inline",
+        "documentation": {}
+    },
+    {
+        "label": "log_dir",
+        "kind": 5,
+        "importPath": "bot.logger_config",
+        "description": "bot.logger_config",
+        "peekOfCode": "log_dir = 'logs'\nif not os.path.exists(log_dir):\n    os.makedirs(log_dir)\n# Настройка логгера\nlogging.basicConfig(\n    level=logging.INFO,\n    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',\n    handlers=[\n        logging.FileHandler(os.path.join(log_dir, 'bot.log')),\n        logging.StreamHandler()",
+        "detail": "bot.logger_config",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "bot.logger_config",
+        "description": "bot.logger_config",
+        "peekOfCode": "logger = logging.getLogger(__name__)",
+        "detail": "bot.logger_config",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "bot.main",
+        "description": "bot.main",
+        "peekOfCode": "def main():\n    dp.include_router(start.router)\n    dp.run_polling(bot)\nif __name__ == '__main__':\n    main()",
+        "detail": "bot.main",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "bot.main",
+        "description": "bot.main",
+        "peekOfCode": "bot = Bot(token='7439911780:AAF-0YhIPfyfKJ54tfSpQXOvQozi0taeTCU')\nstorage = MemoryStorage()\ndp = Dispatcher(storage=storage)\ndef main():\n    dp.include_router(start.router)\n    dp.run_polling(bot)\nif __name__ == '__main__':\n    main()",
+        "detail": "bot.main",
+        "documentation": {}
+    },
+    {
+        "label": "storage",
+        "kind": 5,
+        "importPath": "bot.main",
+        "description": "bot.main",
+        "peekOfCode": "storage = MemoryStorage()\ndp = Dispatcher(storage=storage)\ndef main():\n    dp.include_router(start.router)\n    dp.run_polling(bot)\nif __name__ == '__main__':\n    main()",
+        "detail": "bot.main",
+        "documentation": {}
+    },
+    {
+        "label": "dp",
+        "kind": 5,
+        "importPath": "bot.main",
+        "description": "bot.main",
+        "peekOfCode": "dp = Dispatcher(storage=storage)\ndef main():\n    dp.include_router(start.router)\n    dp.run_polling(bot)\nif __name__ == '__main__':\n    main()",
+        "detail": "bot.main",
+        "documentation": {}
+    }
+]
