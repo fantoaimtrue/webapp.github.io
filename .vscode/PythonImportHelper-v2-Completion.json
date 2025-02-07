@@ -252,7 +252,7 @@
         "kind": 5,
         "importPath": "bot.handlers.start",
         "description": "bot.handlers.start",
-        "peekOfCode": "router = Router()\n# Инициализация подключения к БД\ndb_pool = None\n@router.message(Command(commands=[\"start\"]))\nasync def cmd_start(message: Message):\n    await message.answer(\"Для получения отчета введите /report\")",
+        "peekOfCode": "router = Router()\n# Инициализация подключения к БД\ndb_pool = None\n@router.message(Command(commands=[\"start\"]))\nasync def cmd_start(message: Message):\n    await message.answer(\"Для получения отчета введите /report\")\n    @router.message(Command(commands=[\"report\"]))\n    async def cmd_report(message: Message):\n        await message.answer(\"Пожалуйста, заполните форму для получения отчета.\")\n@router.message(lambda message: message.text.startswith(\"report_data:\"))",
         "detail": "bot.handlers.start",
         "documentation": {}
     },
@@ -261,7 +261,7 @@
         "kind": 5,
         "importPath": "bot.handlers.start",
         "description": "bot.handlers.start",
-        "peekOfCode": "db_pool = None\n@router.message(Command(commands=[\"start\"]))\nasync def cmd_start(message: Message):\n    await message.answer(\"Для получения отчета введите /report\")",
+        "peekOfCode": "db_pool = None\n@router.message(Command(commands=[\"start\"]))\nasync def cmd_start(message: Message):\n    await message.answer(\"Для получения отчета введите /report\")\n    @router.message(Command(commands=[\"report\"]))\n    async def cmd_report(message: Message):\n        await message.answer(\"Пожалуйста, заполните форму для получения отчета.\")\n@router.message(lambda message: message.text.startswith(\"report_data:\"))\nasync def handle_report_data(message: Message):\n    report_data = message.text[len(\"report_data:\"):].strip()",
         "detail": "bot.handlers.start",
         "documentation": {}
     },
